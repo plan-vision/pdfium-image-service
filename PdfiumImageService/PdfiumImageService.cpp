@@ -306,6 +306,10 @@ bool cleanup() {
 	DocumentCacheEntry* de = documentCache.remove(name);
 	if (de != NULL)
 		delete de;
+	char tmp[20];
+	memset(tmp, 0, 10);
+	sprintf(tmp, "DONE");
+	flushwrite((const void*)&tmp, 10, stdout);
 	return true;
 }
 
