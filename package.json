@@ -1,0 +1,25 @@
+{
+  "name": "pdfium-image-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plan-vision/pdfium-image-service.git"
+  },
+  "author": "Plan-Vision",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plan-vision/pdfium-image-service/issues"
+  },
+  "homepage": "https://github.com/plan-vision/pdfium-image-service#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "download": "^8.0.0",
+    "extract-zip": "^2.0.1"
+  }
+}
